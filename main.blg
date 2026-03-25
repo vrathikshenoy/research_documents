@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: WileyNJD-AMS.bst
+Database file #1: references.bib
+Warning--empty pages in shazeer2017moe
+Warning--empty pages in tseng2024quest
+You've used 37 entries,
+            2958 wiz_defined-function locations,
+            796 strings with 10634 characters,
+and the built_in function-call counts, 12936 in all, are:
+= -- 1002
+> -- 423
+< -- 3
++ -- 198
+- -- 116
+* -- 721
+:= -- 1708
+add.period$ -- 56
+call.type$ -- 37
+change.case$ -- 190
+chr.to.int$ -- 0
+cite$ -- 39
+duplicate$ -- 1130
+empty$ -- 1224
+format.name$ -- 133
+if$ -- 2764
+int.to.chr$ -- 0
+int.to.str$ -- 37
+missing$ -- 239
+newline$ -- 119
+num.names$ -- 74
+pop$ -- 501
+preamble$ -- 1
+purify$ -- 132
+quote$ -- 0
+skip$ -- 403
+stack$ -- 0
+substring$ -- 489
+swap$ -- 587
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 148
+warning$ -- 2
+while$ -- 96
+width$ -- 39
+write$ -- 322
+(There were 2 warnings)

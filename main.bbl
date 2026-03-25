@@ -1,0 +1,119 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem{alibaba2025qwen3}
+{Alibaba Qwen Team}, \textit{Qwen3 technical report}, \url{https://qwenlm.github.io/blog/qwen3/}, 2025. Accessed: March 2026.
+
+\bibitem{tongyi2025zimage}
+{Alibaba Tongyi MAI Lab}, \textit{{Z-Image}: Scalable single-stream diffusion transformer}, \url{https://github.com/TongYiMAI/Z-Image}, 2025. Accessed: March 2026.
+
+\bibitem{amd2024mi325x}
+{AMD}, \textit{{Instinct MI325X} accelerator}, \url{https://www.amd.com/en/products/accelerators/instinct/mi325x.html}, 2024. Accessed: March 2026.
+
+\bibitem{bfl2024fluxultra}
+{Black Forest Labs}, \textit{{Flux 1.1 Pro Ultra}}, \url{https://bfl.ai/}, 2024. Accessed: March 2026.
+
+\bibitem{bfl2024flux}
+{Black Forest Labs}, \textit{Flux: Scalable transformer-based image generation}, \url{https://bfl.ai/}, 2024. Accessed: March 2026.
+
+\bibitem{cerebras2024cs3}
+{Cerebras Systems}, \textit{{CS-3} and {WSE-3}: Wafer-scale inference}, \url{https://cerebras.ai/product-system/}, 2024. Accessed: March 2026.
+
+\bibitem{deepseek2024v3}
+{DeepSeek-AI}, \textit{{DeepSeek-V3} technical report}, arXiv preprint arXiv:2412.19437  (2024).
+
+\bibitem{dettmers2022gptint8}
+T.~Dettmers et~al., \textit{{GPT3.int8()}: 8-bit matrix multiplication for transformers at scale}, Advances in Neural Information Processing Systems \textbf{35} (2022).
+
+\bibitem{fedus2022switch}
+W.~Fedus, B.~Zoph, and N.~Shazeer, \textit{Switch transformers: Scaling to trillion parameter models with simple and efficient sparsity}, Journal of Machine Learning Research \textbf{23} (2022), no. 120, 1--39.
+
+\bibitem{frantar2023gptq}
+E.~Frantar et~al., \textit{{GPTQ}: Accurate post-training quantization for generative pre-trained transformers}, arXiv preprint arXiv:2210.17323  (2023).
+
+\bibitem{google2025ironwood}
+{Google}, \textit{Ironwood: Our 7th generation {TPU}}, \url{https://cloud.google.com/blog/products/compute/ironwood-is-googles-7th-gen-tpu}, 2025. Accessed: March 2026.
+
+\bibitem{grattafiori2024llama3}
+A.~Grattafiori et~al., \textit{The {Llama 3} herd of models}, arXiv preprint arXiv:2407.21783  (2024).
+
+\bibitem{huang2024tfmqdm}
+Y.~Huang et~al., \textit{{TFMQ-DM}: Temporal feature maintenance quantization for diffusion models}, \textit{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition ({CVPR})}, 7082--7091.
+
+\bibitem{iea2024electricity}
+{International Energy Agency}, \textit{Electricity 2024: Analysis and forecast to 2026}, IEA Reports  (2024). Paris: IEA.
+
+\bibitem{lin2024awq}
+J.~Lin et~al., \textit{{AWQ}: Activation-aware weight quantization for on-device {LLM} compression and acceleration}, Machine Learning and Systems (MLSys)  (2024).
+
+\bibitem{liquid2025lfm2}
+{Liquid AI}, \textit{{LFM2-24B-A2B} model card}, \url{https://huggingface.co/LiquidAI/LFM2-24B-A2B}, 2025. Accessed: March 2026.
+
+\bibitem{liu2024survey}
+Z.~Liu et~al., \textit{A survey on model compression for large language models}, arXiv preprint arXiv:2308.07633  (2024).
+
+\bibitem{luccioni2024power}
+A.~S. Luccioni, Y.~Jernigan, and E.~Strubell, \textit{Power hungry processing: Watts driving the cost of {AI} deployment?}, \textit{Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency ({FAccT})}, 85--99.
+
+\bibitem{luccioni2023power}
+A.~S. Luccioni, S.~Viguier, and A.-L. Ligozat, \textit{Estimating the carbon footprint of {BLOOM}, a 176{B} parameter language model}, Journal of Machine Learning Research \textbf{24} (2023), no. 253, 1--15.
+
+\bibitem{mei2017dvfs}
+X.~Mei et~al., \textit{Energy aware {GPU} scheduling for {DVFS}-enabled systems}, \textit{Proceedings of the 46th International Conference on Parallel Processing ({ICPP})}, 473--482.
+
+\bibitem{meng2023distillation}
+C.~Meng et~al., \textit{On distillation of guided diffusion models}, Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition ({CVPR})  (2023), 14297--14306.
+
+\bibitem{minimax2026m25}
+{MiniMax}, \textit{{MiniMax M2.5}: Built for real-world productivity}, \url{https://www.minimax.io/news/minimax-m25}, 2026. Accessed: March 2026.
+
+\bibitem{mlperf2025inference}
+{MLCommons}, \textit{{MLPerf} inference v5.0 results}, \url{https://mlcommons.org/benchmarks/inference-datacenter/}, 2025. Accessed: March 2026.
+
+\bibitem{mlenergy2025}
+{ML.ENERGY}, \textit{{ML.ENERGY} leaderboard v3.0}, \url{https://ml.energy/}, 2025. Accessed: March 2026.
+
+\bibitem{nvidia2023a100}
+{NVIDIA Corporation}, \textit{{NVIDIA A100} tensor core {GPU}: Efficiency and performance},  , NVIDIA, 2023. Technical whitepaper.
+
+\bibitem{nvidia2024b200}
+{NVIDIA Corporation}, \textit{{NVIDIA Blackwell} architecture technical brief}, \url{https://www.nvidia.com/en-us/data-center/b200/}, 2024. Accessed: March 2026.
+
+\bibitem{nvidia2024h100}
+{NVIDIA Corporation}, \textit{{NVIDIA H100} tensor core {GPU} architecture overview},  , NVIDIA, 2024. Technical whitepaper.
+
+\bibitem{nvidia2025gb300}
+{NVIDIA Corporation}, \textit{{GB300 NVL72} product brief}, \url{https://www.nvidia.com/en-us/data-center/gb300-nvl72/}, 2025. Accessed: March 2026.
+
+\bibitem{patterson2022carbon}
+D.~Patterson et~al., \textit{The carbon footprint of machine learning training will plateau, then shrink}, Computer \textbf{55} (2022), no.~7, 18--28.
+
+\bibitem{rombach2022ldm}
+R.~Rombach et~al., \textit{High-resolution image synthesis with latent diffusion models}, \textit{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition ({CVPR})}, 10684--10695.
+
+\bibitem{salimans2022progressive}
+T.~Salimans and J.~Ho, \textit{Progressive distillation for fast sampling of diffusion models}, arXiv preprint arXiv:2202.00512  (2022).
+
+\bibitem{shazeer2017moe}
+N.~Shazeer et~al., \textit{Outrageously large neural networks: The sparsely-gated mixture-of-experts layer}, \textit{Proceedings of the 5th International Conference on Learning Representations ({ICLR})}.
+
+\bibitem{strubell2019energy}
+E.~Strubell, A.~Ganesh, and A.~McCallum, \textit{Energy and policy considerations for deep learning in {NLP}}, Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics ({ACL})  (2019), 3645--3650.
+
+\bibitem{tokenpowerbench2025}
+{TokenPowerBench Consortium}, \textit{Benchmarking {LLM} inference energy consumption}, arXiv preprint, 2025. Accessed: March 2026.
+
+\bibitem{tseng2024quest}
+A.~Tseng et~al., \textit{{QuEST}: Low-bit diffusion model quantization via efficient selective finetuning}, \textit{Advances in Neural Information Processing Systems ({NeurIPS})}.
+
+\bibitem{zhipu2025glmimage}
+{Zhipu AI}, \textit{{GLM-Image}: Autoregressive-diffusion hybrid image generation}, \url{https://z.ai/blog/glm-image}, 2025. Accessed: March 2026.
+
+\bibitem{zhipu2026glm5}
+{Zhipu AI}, \textit{{GLM-5} technical report}, \url{https://z.ai/blog/glm-5}, 2026. Accessed: March 2026.
+
+\end{thebibliography}
