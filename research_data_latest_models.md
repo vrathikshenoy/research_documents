@@ -32,7 +32,7 @@
 ### Table 1.2 — LLM Inference Performance & Efficiency
 
 | Model                      | Hardware                     | Throughput (tok/s)                       | Sparsity Ratio            | Key Efficiency Feature                                                   |
-| -------------------------- | ---------------------------- | ---------------------------------------- | ------------------------- | ------------------------------------------------------------------------ |
+| -------------------------- | ---------------------------- | ---------------------------------------- | ------------------------- | ------------------------------------------------------------------------ 
 | **GLM-5**                  | NVIDIA Blackwell/Hopper GPUs | Comparable to 30–70B dense model latency | 5.9% active (40B/744B)    | DeepSeek Sparse Attention (DSA) + MLA; reduces compute by ~95% per token |
 | **MiniMax M2.5-Lightning** | API (cloud)                  | 100 tok/s                                | 4.3% active (10B/230B)    | Extreme sparsity with high throughput                                    |
 | **MiniMax M2.5 Standard**  | API (cloud)                  | 50 tok/s                                 | 4.3% active               | Cost-optimized variant                                                   |

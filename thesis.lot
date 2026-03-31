@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces LLM Baseline Energy Output Parameters (A100 80GB Platform, FP16)}}{19}{table.caption.5}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces LLM Quantization Energy Fluctuations (Normalised Matrix to FP16 = 1.0)}}{20}{table.caption.6}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Diffusion Architecture Parameter Readings (512$\times $512 Image Res)}}{22}{table.caption.7}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces The Graphic Quantization Rebound Effect Dynamics}}{22}{table.caption.8}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Bleeding-Edge LLM Architectures (Extrapolated Estimations)}}{26}{table.caption.9}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

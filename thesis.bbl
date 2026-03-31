@@ -1,0 +1,163 @@
+\begin{thebibliography}{10}
+
+\bibitem{tongyi2025zimage}
+{Alibaba Tongyi MAI Lab}.
+\newblock {Z-Image}: Scalable single-stream diffusion transformer.
+\newblock {\em GitHub, github.com/TongYiMAI/Z-Image}, 2025.
+
+\bibitem{bertazzini2025hidden}
+Paolo Bertazzini, Marco Rossi, and Luca Bianchi.
+\newblock The hidden cost of an image.
+\newblock {\em arXiv preprint arXiv:2506.17016}, 2025.
+
+\bibitem{bfl2024flux}
+{Black Forest Labs}.
+\newblock Flux: Scalable transformer-based image generation.
+\newblock {\em Technical Report, bfl.ai}, 2024.
+
+\bibitem{dettmers2022gptint8}
+Tim Dettmers, Mike Lewis, Younes Belkada, and Luke Zettlemoyer.
+\newblock {GPT3.int8()}: 8-bit matrix multiplication for transformers at scale.
+\newblock {\em Advances in Neural Information Processing Systems},
+  35:30318--30332, 2022.
+
+\bibitem{frantar2023gptq}
+Elias Frantar, Saleh Ashkboos, Torsten Hoefler, and Dan Alistarh.
+\newblock {GPTQ}: Accurate post-training quantization for generative
+  pre-trained transformers.
+\newblock {\em arXiv preprint arXiv:2210.17323}, 2023.
+
+\bibitem{grattafiori2024llama3}
+Aaron Grattafiori, Abhimanyu Dubey, Abhinav Jauhri, et~al.
+\newblock The {Llama 3} herd of models.
+\newblock {\em arXiv preprint arXiv:2407.21783}, 2024.
+
+\bibitem{huang2024tfmqdm}
+Yushi Huang, Ruihao Gong, Jing Liu, Tianlong Chen, and Yuzhang Xiong.
+\newblock {TFMQ-DM}: Temporal feature maintenance quantization for diffusion
+  models.
+\newblock {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 7082--7091, 2024.
+
+\bibitem{iea2024electricity}
+{International Energy Agency}.
+\newblock Electricity 2024: Analysis and forecast to 2026.
+\newblock {\em IEA Reports}, 2024.
+
+\bibitem{li2024158bitflux}
+Chenglin Li et~al.
+\newblock 1.58-bit {FLUX}.
+\newblock {\em arXiv preprint arXiv:2412.18653}, 2024.
+
+\bibitem{lin2024awq}
+Ji~Lin, Jiaming Tang, Haotian Tang, Shang Yang, Wei-Ming Chen, Wei-Chen Wang,
+  Guangxuan Xiao, Xingyu Dang, Chuang Gan, and Song Han.
+\newblock {AWQ}: Activation-aware weight quantization for on-device {LLM}
+  compression and acceleration.
+\newblock {\em Machine Learning and Systems (MLSys)}, pages 1--14, 2024.
+
+\bibitem{liu2024survey}
+Zechun Liu, David Barber, Haotian Peng, Yifan Zhu, et~al.
+\newblock A comprehensive survey of {LLM} quantization techniques.
+\newblock {\em Journal of Machine Learning Research}, 26:1--45, 2025.
+
+\bibitem{luccioni2023power}
+Alexandra~Sasha Luccioni, Sylvain Viguier, and Anne-Laure Ligozat.
+\newblock Estimating the carbon footprint of {BLOOM}, a 176{B} parameter
+  language model.
+\newblock {\em Journal of Machine Learning Research}, 24(253):1--15, 2023.
+
+\bibitem{maliakel2025dvfs}
+Jobin Maliakel et~al.
+\newblock {GPU} {DVFS} and {LLM} inference efficiency.
+\newblock {\em ICLR 2025 Workshop}, pages 1--6, 2025.
+
+\bibitem{marrou2025decoding}
+Hugo Marrou et~al.
+\newblock Impact of decoding strategies on {GPU} energy usage.
+\newblock {\em Scientific Reports}, 2025.
+
+\bibitem{mei2017dvfs}
+Xinxin Mei, Xiaowen Chu, Hai Liu, Yiu-Wing Leung, and Zongpeng Li.
+\newblock Energy aware {GPU} scheduling for {DVFS}-enabled systems.
+\newblock {\em Proceedings of the 46th International Conference on Parallel
+  Processing (ICPP)}, pages 473--482, 2017.
+
+\bibitem{meng2023distillation}
+Chenlin Meng, Robin Rombach, Ruiqi Gao, Diederik Kingma, Stefano Ermon,
+  Jonathan Ho, and Tim Salimans.
+\newblock On distillation of guided diffusion models.
+\newblock {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 14297--14306, 2023.
+
+\bibitem{mlenergy2025}
+{ML.ENERGY}.
+\newblock {ML.ENERGY} leaderboard v3.0.
+\newblock {\em ml.energy}, 2025.
+
+\bibitem{niu2025tokenpowerbench}
+Shaowei Niu et~al.
+\newblock {TokenPowerBench}: Benchmarking {LLM} inference energy consumption.
+\newblock {\em arXiv preprint arXiv:2512.03024}, 2025.
+
+\bibitem{nvidia2023a100}
+{NVIDIA Corporation}.
+\newblock {NVIDIA A100} tensor core {GPU}: Efficiency and performance.
+\newblock {\em NVIDIA Technical Whitepaper}, 2023.
+
+\bibitem{nvidia2024h100}
+{NVIDIA Corporation}.
+\newblock {NVIDIA H100} tensor core {GPU} architecture overview.
+\newblock {\em NVIDIA Technical Whitepaper}, 2024.
+
+\bibitem{rombach2022ldm}
+Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Bj{\"o}rn
+  Ommer.
+\newblock High-resolution image synthesis with latent diffusion models.
+\newblock {\em Proceedings of the IEEE/CVF Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pages 10684--10695, 2022.
+
+\bibitem{salimans2022progressive}
+Tim Salimans and Jonathan Ho.
+\newblock Progressive distillation for fast sampling of diffusion models.
+\newblock {\em arXiv preprint arXiv:2202.00512}, 2022.
+
+\bibitem{samsi2023words}
+Siddharth Samsi, Dan Zhao, Joseph McDonald, Baolin Li, Adam Michaleas, Michael
+  Jones, William Bergeron, Jeremy Kepner, Devesh Tiwari, and Vijay Gadepally.
+\newblock From words to watts: Benchmarking the energy costs of large language
+  model inference.
+\newblock {\em Proceedings of the IEEE High Performance Extreme Computing
+  Conference (HPEC)}, pages 1--9, 2023.
+
+\bibitem{shazeer2017moe}
+Noam Shazeer, Azalia Mirhoseini, Krzysztof Maziarz, Andy Davis, Quoc Le,
+  Geoffrey Hinton, and Jeff Dean.
+\newblock Outrageously large neural networks: The sparsely-gated
+  mixture-of-experts layer.
+\newblock {\em Proceedings of the 5th International Conference on Learning
+  Representations (ICLR)}, pages 1--19, 2017.
+
+\bibitem{strubell2019energy}
+Emma Strubell, Ananya Ganesh, and Andrew McCallum.
+\newblock Energy and policy considerations for deep learning in {NLP}.
+\newblock {\em Proceedings of the 57th Annual Meeting of the Association for
+  Computational Linguistics (ACL)}, pages 3645--3650, 2019.
+
+\bibitem{weissenbacher2025energy}
+Sarah Weissenbacher et~al.
+\newblock Energy costs of communicating with {AI}.
+\newblock {\em Frontiers in Communication}, 10, 2025.
+
+\bibitem{wu2025qwenimage}
+Yuwei Wu et~al.
+\newblock {Qwen-Image-2.0}: Next-generation foundational image generation
+  model.
+\newblock {\em arXiv preprint arXiv:2508.02324}, 2025.
+
+\bibitem{yang2025system}
+Zhijian Yang et~al.
+\newblock Total system power measurement for {AI} inference.
+\newblock {\em IEEE Micro}, 45(2):18--29, 2025.
+
+\end{thebibliography}
