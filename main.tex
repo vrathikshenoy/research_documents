@@ -16,9 +16,11 @@
 
 \author[2]{Amrithkala M Shetty}
 
-\authormark{VRATHIK SHENOY K}
+\authormark{SHENOY K \textsc{and} SHETTY}
 
 \address[1]{\orgdiv{Department of Computer Applications}, \orgname{Nitte Institute of Professional Education}, \orgaddress{\state{Mangalore, Karnataka}, \country{India}}}
+
+\address[2]{\orgdiv{Department of Computer Applications}, \orgname{Nitte Institute of Professional Education}, \orgaddress{\state{NITTE, Karnataka}, \country{India}}}
 
 \corres{*Vrathik Shenoy K, Department of Computer Applications, Nitte Institute of Professional Education, Mangalore. \email{shenoyvrathik@gmail.com}}
 
@@ -27,7 +29,7 @@
 \keywords{Generative AI, Energy Efficiency, Mixture-of-Experts, Inference Optimization, Quantization, Diffusion Models, Green AI, Hardware Accelerators}
 
 \jnlcitation{\cname{%
-\author{Vrathik Shenoy K.}} (\cyear{2026}),
+\author{Vrathik Shenoy K.}, \author{Amrithkala M. Shetty}} (\cyear{2026}),
 \ctitle{Sparsity, Steps, and Silicon: Understanding Efficient Generative AI Inference Beyond Quantization}, \cjournal{Expert Systems}, \cvol{2026;00:1--16}.}
 
 \maketitle
@@ -56,7 +58,7 @@ Five specific objectives guide the work:
 
 The contribution is both academic and practical. On the academic side, the paper offers a single comparative framework that future studies can build on as new models and hardware appear. On the practical side, the results help system architects and ML engineers focus on the optimisation levers that actually matter, which saves both energy and the engineering time that would otherwise go into ineffective quantisation work. At one million daily queries, switching from a dense model to an MoE equivalent saves an estimated 70,000--160,000~Wh per day. That works out to roughly 10--23 metric tonnes of CO$_2$ per year at the US average grid carbon intensity.
 
-The remainder of this paper is organised using the Create a Research Space (CARS) method \cite{schwartz2020green}: Section~\ref{sec2} establishes the territory through a critical literature review; Section~\ref{sec3} details the benchmarking methodology; Section~\ref{sec4} occupies the niche with experimental results and an updated 2024--2026 landscape; Section~\ref{sec5} provides a critical discussion; and Section~\ref{sec6} concludes with contributions and future directions.
+The remainder of this paper is organised as follows. Section~\ref{sec2} reviews the relevant literature on inference energy, quantisation, step reduction, and hardware. Section~\ref{sec3} sets out the benchmarking methodology. Section~\ref{sec4} reports the experimental results together with an updated 2024--2026 landscape. Section~\ref{sec5} discusses the findings and their limitations, and Section~\ref{sec6} closes with the main contributions and future directions.
 
 
 %% ========== LITERATURE REVIEW ==========
@@ -94,9 +96,9 @@ The 2024--2026 hardware landscape introduces qualitative shifts that alter the e
 
 These advances mean that hardware generation selection now has a larger impact on inference energy than most algorithmic optimisations. Yet no prior study has situated model-level efficiency findings against this rapidly evolving hardware context. Our work addresses this gap.
 
-\subsection{Summary and Gap Identification}
+\subsection{Summary}
 
-In summary, existing literature provides strong evidence that (a)~MoE sparsity outperforms quantisation for LLM energy savings \cite{lopez2025moe}, (b)~step reduction dominates quantisation for diffusion models \cite{bertazzini2025hidden}, and (c)~hardware generational leaps can dwarf both \cite{nvidia2025gb300}. What is absent is a unified study that benchmarks all three levers together, incorporates the latest 2024--2026 models and accelerators, and provides practitioners with an integrated decision framework. This paper fills that gap.
+Across the three threads, the literature converges on three points: MoE sparsity outperforms quantisation for LLM energy savings \cite{lopez2025moe}, step reduction dominates quantisation for diffusion models \cite{bertazzini2025hidden}, and hardware generational leaps can dwarf both \cite{nvidia2025gb300}. These threads have so far been studied in isolation, which is the gap our benchmarking study addresses.
 
 
 %% ========== METHODS ==========
@@ -290,7 +292,7 @@ The progression from A100 to GB300 represents a 140$\times$ improvement in joule
 
 \subsection{Cross-Domain Synthesis}
 
-Three overarching findings emerge, forming a hierarchy of efficiency levers from highest to lowest impact:
+Four overarching findings emerge, forming a hierarchy of efficiency levers from highest to lowest impact:
 
 \begin{enumerate}
 \item \textbf{Architecture (MoE sparsity, step distillation):} 4--20$\times$ energy reduction, with activation ratios of 4.3--5.9\% in the latest models and 4--8 step diffusion models.
@@ -331,9 +333,9 @@ Several limitations bound our conclusions. Our controlled experiments were restr
 
 \subsection{Implications for Sustainable AI}
 
-From a sustainability perspective, our findings recommend a layered optimisation strategy. First, choose sparse architectures: the MoE approach delivers the largest and most predictable energy savings. Deploying GLM-5 (5.9\% active / 744B) instead of a dense 70B model for equivalent effective-capacity tasks could reduce per-query energy by an estimated 10--20$\times$. At 1 million daily queries, this represents an additional 70,000--160,000~Wh saved per day over the GPT-OSS-20B baseline, equivalent to 10--23 additional metric tonnes of CO$_2$ per year at US average carbon intensity. Second, reduce inference steps for diffusion models: step distillation yields near-proportional energy reduction. Third, apply DVFS tuning. Fourth, deploy on the most efficient hardware available. Quantisation should be viewed as a complementary, fine-grained optimisation rather than the primary efficiency strategy.
+From a sustainability standpoint, the hierarchy summarised in Section~\ref{sec4} translates directly into deployment guidance, with sparse MoE architectures as the first lever to reach for. The scale of the saving is substantial: deploying GLM-5 (5.9\% active / 744B) in place of a dense 70B model for tasks of comparable effective capacity could cut per-query energy by an estimated 10--20$\times$. At one million daily queries, that is an additional 70,000--160,000~Wh saved per day over the GPT-OSS-20B baseline, or roughly 10--23 metric tonnes of CO$_2$ per year at the US average grid carbon intensity. Quantisation, on this view, is best treated as a complementary fine-grained optimisation rather than the primary efficiency strategy.
 
-We also advocate for standardised energy reporting. Just as accuracy and latency are routinely published in model releases, energy per token or per image should become a mandatory metric. Initiatives like ML.ENERGY \cite{mlenergy2025} and MLPerf's power track \cite{mlperf2025inference} are important steps, but industry-wide adoption remains incomplete.
+A second implication concerns reporting practice. Accuracy and latency are routinely published with new model releases; energy per token or per image deserves the same treatment. Initiatives such as ML.ENERGY \cite{mlenergy2025} and MLPerf's power track \cite{mlperf2025inference} are useful steps in this direction, but industry-wide adoption is still incomplete.
 
 
 %% ========== CONCLUSION ==========
@@ -374,7 +376,10 @@ The data that support the findings of this study are available from the correspo
 
 \section*{Author Biography}
 
-\begin{biography}{\includegraphics[width=60pt,height=70pt,draft]{empty}}{\textbf{Vrathik Shenoy K.} is a student in the Department of Computer Applications at Nitte Institute of Professional Education, Mangalore, India. Research interests include sustainable AI, energy-efficient machine learning, generative model optimisation, and inference systems design. This work addresses the critical challenge of reducing the environmental footprint of large-scale AI inference.}
+\begin{biography}{\raisebox{-5pt}{\includegraphics[width=60pt,height=70pt]{vrathik_bio.jpeg}}}{\textbf{Vrathik Shenoy K.} is a student in the Department of Computer Applications at Nitte Institute of Professional Education, Mangalore, India. Research interests include sustainable AI, energy-efficient machine learning, generative model optimisation, and inference systems design. This work addresses the critical challenge of reducing the environmental footprint of large-scale AI inference.}
+\end{biography}
+
+\begin{biography}{\raisebox{-5pt}{\includegraphics[width=60pt,height=70pt]{amrithkala_bio.jpeg}}}{\textbf{Amrithkala M. Shetty} received her MSc degree in computer science from Mangalore University, Karnataka, India. She obtained her PhD from the Department of Computer Science at Mangalore University. Her research interests include machine learning, deep learning, sentiment analysis, and recommendation systems. She is an Assistant Professor at the Nitte Institute of Professional Education, NITTE, Karnataka, India.}
 \end{biography}
 
 
